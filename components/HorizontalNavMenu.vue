@@ -3,12 +3,12 @@ const route = useRoute()
 
 const links = [{
   label: 'Home',
-  to: `#`
+  to: `/`
   // to: `${route.path.startsWith('/dev') ? '/dev' : ''}/components/horizontal-navigation`
 }, {
-  label: 'Hourly Forecast',
-  to: '#'
-  // to: '/components/command-palette'
+  label: 'Today\'s Weather',
+  // to: '#'
+  to: '/today'
 }, {
   label: '3-Day Forecast',
   to: '#'
